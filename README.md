@@ -15,9 +15,7 @@ switch routing path, controller가 수정하게 해주기
     exist  is  an  error.   With --if-exists, attempting to delete a
     bridge that does not exist has no effect.
 
-브릿지 삭제하기? 끄기?
 
-==============================================
 sudo mn --topo linear,3 --mac --switch ovsk --controller remote -x
 
 * switch CMD *
